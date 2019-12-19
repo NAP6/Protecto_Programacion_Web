@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aprendiendo</title>
+
+    <link href="CSS/Estilo.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+
+<body>
+    <header>
+        <img width="80px" src="IMG/puerco_espin.png" style="align-items: center;">
+    </header>
+
+    <article>
+        <img id="img_tit" src="IMG/zorro.png">
+        <h1 id="txt_tit">Aprendiendo</h1>
+
+        <div class="cuadro" style="z-index: 2; position: relative; top: 200px;">
+            <h2 class="txt_Izq">INFORMACION</h2>
+            <h1>Descripcion del proyecto</h1>
+            <p>
+                Este Trabajo presenta una pagina web capaz de utilizar un modulo con botones que se conecta a internet y
+                es capas de hacer practicar a los ninios con discapacidad sus abilidades de habla
+            </p>
+        </div>
+
+        <div style="margin: 250px;"></div>
+
+        <div class="cuadro tabla">
+            <div class="fila">
+                <div class="columna">
+                    <h2 class="txt_Centro" style="font-size: 50px;">Mapache</h2>
+                    <p>
+                        Una de las características más relevantes de los mapaches son sus extraordinarias patas. Pueden rotar las traseras en un ángulo de 180 grados para ayudarse a trepar a los árboles. Además, tiene zarpas fuertes que se dividen en 5 dedos con los cuales agarrar distintos objetos.
+                    </p>
+                </div>
+                <div class="columna">
+                    <h2 class="txt_Centro" style="font-size: 50px;">Conejo</h2>
+                    <p>
+                        El conejo común o conejo europeo es una especie de mamífero lagomorfo de la familia Leporidae, y el único miembro actual del género Oryctolagus. Mide hasta 50 cm y pesa hasta 2.5 kilos. Ha sido introducido en varios continentes y es la especie que se utiliza en la cocina y en la cunicultura.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cuadro txt_Centro">
+            <img src="IMG/mapache.png" alt="Error al cargar imagen" id="imgS">
+        </div>
+
+        <p id="load">Firebase SDK Loading&hellip;</p>
+        
+    </article>
+
+    <footer>
+
+    </footer>
+
+
+
+    <!--####################################################################################-->
+    <!--####################################################################################-->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-analytics.js"></script>
+    <!--Biblioteca de Firebase para usar realtime database-->
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-database.js"></script>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <!--Importamos el script que maneja todo-->
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
