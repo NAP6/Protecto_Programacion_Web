@@ -1,4 +1,5 @@
 body {
+    background: #ECEFF1;
     background: #cfae82;
     color: rgba(0, 0, 0, 0.87);
     font-family: Roboto, Helvetica, Arial, sans-serif;
@@ -19,15 +20,14 @@ body {
 }
 
 .cuadro h2 {
-    color: #cfae82;
+    color: #44454b;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 160%;
     margin: 0 0 8px;
 }
 
 .cuadro h1 {
     font-size: 60px;
-    font-weight: 300;
     color: rgba(0, 0, 0, 0.6);
     margin: 0 0 16px;
 }
@@ -112,7 +112,6 @@ body {
 .columna {
     display: table-cell;
     padding: 3%;
-    width: 50%;
 }
 
 
@@ -157,17 +156,13 @@ footer {
     background: white;
 }
 
-
-/*
-@media (max-width: 600px) {
-    body,
-    .cuadro {
-        margin-top: 0;
-        background: white;
-        box-shadow: none;
-    }
-    body {
-        border-top: 16px solid #ffa100;
-    }
+.fot_detr {
+    position: absolute;
+    z-index: 1;
+    right: 0.5%;
+    top: 30%;
 }
-*/
+
+.aplicaciones {
+    font-size: 50px;
+}
