@@ -1,5 +1,5 @@
 body {
-    background: #ECEFF1;
+    background: #cfae82;
     color: rgba(0, 0, 0, 0.87);
     font-family: Roboto, Helvetica, Arial, sans-serif;
     margin: 0%;
@@ -12,21 +12,21 @@ body {
 
 .cuadro {
     background: white;
-    max-width: 85%;
+    max-width: 94%;
     margin: 33px auto 16px;
     padding: 42px 24px;
     border-radius: 13px;
 }
 
 .cuadro h2 {
-    color: #ffa100;
+    color: #cfae82;
     font-weight: bold;
     font-size: 16px;
     margin: 0 0 8px;
 }
 
 .cuadro h1 {
-    font-size: 22px;
+    font-size: 60px;
     font-weight: 300;
     color: rgba(0, 0, 0, 0.6);
     margin: 0 0 16px;
@@ -35,7 +35,7 @@ body {
 .cuadro p {
     line-height: 140%;
     margin: 16px 0 24px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .cuadro a {
@@ -77,9 +77,10 @@ body {
 
 #img_tit {
     right: 15%;
+    top: 130px;
     position: absolute;
     z-index: 1;
-    width: 16%;
+    width: 15%;
 }
 
 #txt_tit {
@@ -87,9 +88,9 @@ body {
     z-index: 2;
     top: 100px;
     margin: 0% 0% 0% 10%;
-    font-size: 150px;
-    font-weight: 300;
-    font-family: Brush Script Std Medium;
+    font-size: 120px;
+    font-weight: 250px;
+    font-family: Brush Script MT;
     color: black;
 }
 
@@ -120,11 +121,29 @@ body {
 header {
     border-bottom-style: groove;
     border-bottom-color: rgba(70, 70, 70, 0.164);
-    background: white;
+    background: rgba(255, 255, 255, 0.726);
     padding: 0%;
     position: sticky;
     top: 0px;
     z-index: 6;
+}
+
+header pre {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0% 20% 0% 0%;
+    color: black;
+    font-size: 20px;
+    margin: 0%;
+}
+
+header .columna {
+    width: 16.6%;
+    padding: 0%;
+}
+
+header .columna .mayo {
+    width: 33.2%;
+    padding: 0%;
 }
 
 header img {
